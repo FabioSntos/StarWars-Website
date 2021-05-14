@@ -1,0 +1,28 @@
+@media (max-width: 600px) {
+  /* line 2, ../../Documents/gama/template-node-fulljs/src/assets/sass/commons/responsive.scss */
+  .background--two {
+    height: 1400px;
+  }
+  /* line 5, ../../Documents/gama/template-node-fulljs/src/assets/sass/commons/responsive.scss */
+  .background--two .block-section--two {
+    display: grid;
+    height: 90%;
+  }
+  /* line 9, ../../Documents/gama/template-node-fulljs/src/assets/sass/commons/responsive.scss */
+  .background--two .block-section--two p {
+    text-align: center;
+    margin-left: 0;
+    margin-top: calc(10px - 200px);
+  }
+  /* line 15, ../../Documents/gama/template-node-fulljs/src/assets/sass/commons/responsive.scss */
+  .background--two .block-section--two img {
+    margin: 0 auto;
+    max-width: 60%;
+  }
+  /* line 22, ../../Documents/gama/template-node-fulljs/src/assets/sass/commons/responsive.scss */
+  .footer-contain {
+    margin-top: calc(10px - 100px);
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */

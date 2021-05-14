@@ -1,0 +1,113 @@
+/* line 5, ../../Documents/gama/template-node-fulljs/src/assets/sass/commons/main.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 10, ../../Documents/gama/template-node-fulljs/src/assets/sass/commons/main.scss */
+html {
+  scroll-behavior: smooth;
+}
+
+/* line 14, ../../Documents/gama/template-node-fulljs/src/assets/sass/commons/main.scss */
+body {
+  background: #000;
+  color: #fff;
+}
+
+/* line 19, ../../Documents/gama/template-node-fulljs/src/assets/sass/commons/main.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+b,
+span {
+  font-family: "Roboto", sans-serif;
+}
+
+/* line 30, ../../Documents/gama/template-node-fulljs/src/assets/sass/commons/main.scss */
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+/* line 35, ../../Documents/gama/template-node-fulljs/src/assets/sass/commons/main.scss */
+.block-section {
+  display: block;
+}
+
+/* line 39, ../../Documents/gama/template-node-fulljs/src/assets/sass/commons/main.scss */
+.main-left {
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+}
+
+/* line 44, ../../Documents/gama/template-node-fulljs/src/assets/sass/commons/main.scss */
+.main-left img {
+  width: 120px;
+  height: auto;
+  transition: 0.3s;
+}
+
+/* line 49, ../../Documents/gama/template-node-fulljs/src/assets/sass/commons/main.scss */
+.main-left img:hover {
+  transform: scale(1.2);
+}
+
+/* line 55, ../../Documents/gama/template-node-fulljs/src/assets/sass/commons/main.scss */
+.footer-contain {
+  margin-top: calc(10px - 160px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+/* line 61, ../../Documents/gama/template-node-fulljs/src/assets/sass/commons/main.scss */
+.footer-contain img {
+  height: 190px;
+  width: auto;
+  transition: 0.3s;
+}
+
+/* line 66, ../../Documents/gama/template-node-fulljs/src/assets/sass/commons/main.scss */
+.footer-contain img:hover {
+  transform: scale(1.2);
+}
+
+/* line 72, ../../Documents/gama/template-node-fulljs/src/assets/sass/commons/main.scss */
+.error-default {
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+/* line 80, ../../Documents/gama/template-node-fulljs/src/assets/sass/commons/main.scss */
+.error-default h1,
+.error-default h2,
+.error-default h3,
+.error-default h4,
+.error-default h5,
+.error-default p {
+  text-transform: uppercase;
+}
+
+/* line 89, ../../Documents/gama/template-node-fulljs/src/assets/sass/commons/main.scss */
+.error-default img {
+  height: 190px;
+  width: auto;
+  transition: 0.3s;
+}
+
+/* line 94, ../../Documents/gama/template-node-fulljs/src/assets/sass/commons/main.scss */
+.error-default img:hover {
+  transform: scale(1.2);
+}
+
+/*# sourceMappingURL=main.css.map */

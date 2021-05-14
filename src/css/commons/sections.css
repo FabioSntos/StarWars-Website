@@ -1,0 +1,75 @@
+/* line 1, ../../Documents/gama/template-node-fulljs/src/assets/sass/commons/sections.scss */
+.section {
+  width: 100%;
+}
+
+/* line 5, ../../Documents/gama/template-node-fulljs/src/assets/sass/commons/sections.scss */
+.background--one {
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 14, ../../Documents/gama/template-node-fulljs/src/assets/sass/commons/sections.scss */
+.background--one .block-section--one {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+/* line 19, ../../Documents/gama/template-node-fulljs/src/assets/sass/commons/sections.scss */
+.background--one .block-section--one h1 {
+  font-weight: 400;
+  font-size: 22px;
+  margin-bottom: 32px;
+}
+
+/* line 25, ../../Documents/gama/template-node-fulljs/src/assets/sass/commons/sections.scss */
+.background--one .block-section--one img {
+  cursor: pointer;
+  width: 300px;
+  height: auto;
+  transition: 0.3s;
+}
+
+/* line 31, ../../Documents/gama/template-node-fulljs/src/assets/sass/commons/sections.scss */
+.background--one .block-section--one img:hover {
+  transform: scale(1.2);
+}
+
+/* line 38, ../../Documents/gama/template-node-fulljs/src/assets/sass/commons/sections.scss */
+.background--two {
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+}
+
+/* line 45, ../../Documents/gama/template-node-fulljs/src/assets/sass/commons/sections.scss */
+.background--two .block-section--two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: calc(10px - 60px);
+  height: 100%;
+}
+
+/* line 52, ../../Documents/gama/template-node-fulljs/src/assets/sass/commons/sections.scss */
+.background--two .block-section--two img {
+  max-width: 300px;
+  height: auto;
+}
+
+/* line 57, ../../Documents/gama/template-node-fulljs/src/assets/sass/commons/sections.scss */
+.background--two .block-section--two p {
+  margin-left: 70px;
+  height: 100%;
+  text-align: right;
+}
+
+/*# sourceMappingURL=sections.css.map */

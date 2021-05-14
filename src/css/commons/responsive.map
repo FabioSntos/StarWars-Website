@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "responsive.css",
+	"sources": [
+		"../../assets/sass/commons/responsive.scss"
+	],
+	"sourcesContent": [
+		"@media (max-width: 600px) {\r\n  .background--two {\r\n    height: 1400px;\r\n\r\n    .block-section--two {\r\n      display: grid;\r\n      height: 90%;\r\n\r\n      & p {\r\n        text-align: center;\r\n        margin-left: 0;\r\n        margin-top: calc(10px - 200px);\r\n      }\r\n\r\n      & img {\r\n        margin: 0 auto;\r\n        max-width: 60%;\r\n      }\r\n    }\r\n  }\r\n\r\n  .footer-contain {\r\n    margin-top: calc(10px - 100px);\r\n  }\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": "AAAA,MAAM,EAAE,SAAS,EAAE,KAAK;;EACtB,AAAA,gBAAgB,CAAC;IACf,MAAM,EAAE,MAAM;GAiBf;;EAlBD,AAGE,gBAHc,CAGd,mBAAmB,CAAC;IAClB,OAAO,EAAE,IAAI;IACb,MAAM,EAAE,GAAG;GAYZ;;EAjBH,AAOI,gBAPY,CAGd,mBAAmB,CAIf,CAAC,CAAC;IACF,UAAU,EAAE,MAAM;IAClB,WAAW,EAAE,CAAC;IACd,UAAU,EAAE,kBAAkB;GAC/B;;EAXL,AAaI,gBAbY,CAGd,mBAAmB,CAUf,GAAG,CAAC;IACJ,MAAM,EAAE,MAAM;IACd,SAAS,EAAE,GAAG;GACf;;EAIL,AAAA,eAAe,CAAC;IACd,UAAU,EAAE,kBAAkB;GAC/B"
+}
